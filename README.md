@@ -3,6 +3,10 @@
 ## Introduction
 This project implements a Spring Boot REST API for managing categories and products. It integrates with a MySQL database using Spring Data JPA and Hibernate for data persistence.
 
+- One-to-many relationship between categories and products.
+- Server-side pagination for efficient handling of large datasets.
+- Enhanced product details with respective category information.
+
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [Installation](#installation)
