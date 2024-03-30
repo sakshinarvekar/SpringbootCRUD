@@ -26,17 +26,6 @@ public class ProductController {
         return productService.getProduct(id);
     }
 
-//    @GetMapping("/{id}")
-//    public Object getProductDeatils(@PathVariable int id) {
-//        Product products = productService.getProduct(id);
-//        if (products != null) {
-//            return products;
-//        } else {
-//            return "Not found";
-//        }
-//    }
-
-
 
      //Read all products(commented for trying pagination code)
 //    @GetMapping()

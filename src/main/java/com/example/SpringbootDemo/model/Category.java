@@ -41,7 +41,7 @@ public class Category {
     public void setCname(String cname) {
         this.cname = cname;
     }
-    //
+
     // Getter and setter for products field
     public List<Product> getProducts() {
         return products;

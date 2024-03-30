@@ -13,8 +13,6 @@ public interface ProductService {
     public String DeleteProduct(int id);
     public Product getProduct(int id);
     public List<Product> GetAllProducts();
-
-    //
     Page<Product> getAllProductsWithPagination(Pageable pageable);
 
 }

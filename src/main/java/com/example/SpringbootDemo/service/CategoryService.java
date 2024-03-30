@@ -16,7 +16,7 @@ public interface CategoryService {
     public String DeleteCategory(int id);
     public Optional<Category> getCategory(int id);
     public List<Category> GetAllCategories();
-    //
+
     Page<Category> getAllCategoriesWithPagination(Pageable pageable);
 
 }
